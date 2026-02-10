@@ -1,20 +1,20 @@
 <!-- Profile Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:203a43&height=180&section=header&text=Yash%20Shinde&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%7C%20System%20Designer%20%7C%20Pragmatic%20Builder&descAlignY=55&descSize=16" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:203a43&height=180&section=header&text=Yash%20Shinde&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20System%20Designer%20%7C%20Pragmatic%20Builder&descAlignY=55&descSize=16" />
 </p>
 
 ```ascii
 ╔═══════════════════════════════════════════════════════════════╗
-║  Building systems that don't fall apart at 3 AM               ║
-║  Real-time streaming • Scalable backends • Clean architecture ║
+║  Building systems that don't break at scale                   ║
+║  Real-time Streaming • Scalable backends • Clean architecture ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
 
 ## 👨‍💻 What I Do
 
-I write backend systems that actually work under load. Not interested in tutorial projects or framework tourism—more interested in understanding *why* distributed systems fail and how to prevent it.
+I write backend systems that actually work under load. I'm interested in understanding *why* distributed systems fail and how to prevent it.
 
-Currently deep in: **Spring Boot microservices**, **real-time event systems**, and **interview prep that doesn't feel soul-crushing**.
+Currently deep in: **Spring Boot microservices**, **real-time event systems**, with a side of **DevOps**.
 
 ---
 
@@ -50,9 +50,9 @@ Currently deep in: **Spring Boot microservices**, **real-time event systems**, a
 ### Infrastructure
 ```text
 🐳 Docker
+☸️ Kubernetes
 ☁️ AWS (EC2, S3, Lambda)
 🔧 CI/CD Pipelines
-📈 System Monitoring
 ```
 
 </td>
@@ -72,14 +72,14 @@ Currently deep in: **Spring Boot microservices**, **real-time event systems**, a
 
 <br>
 
-**The Problem**: Most "music players" are just file browsers with a play button.
+**The Problem**: Most "local music players" are just file browsers with a play button.
 
 **The Solution**: Built a proper streaming backend that treats audio as a first-class resource.
 
-- 📂 Intelligent file scanning with delta updates (doesn't rescan 10k files every time)
-- 🎼 Metadata extraction and normalization in MySQL
-- 📡 Proper HTTP range request handling for streaming
-- 🔄 RESTful API designed for scale, not just localhost
+-  Intelligent file scanning with delta updates (doesn't rescan 10k files every time)
+-  Metadata extraction and normalization in MySQL
+-  Proper HTTP range request handling for streaming
+-  RESTful API designed for scale, not just localhost
 
 **Tech**: Spring Boot, MySQL, React, Docker
 
@@ -88,16 +88,16 @@ Currently deep in: **Spring Boot microservices**, **real-time event systems**, a
 </details>
 
 <details>
-<summary><b>🧩 DevCollab Platform</b> — Developer-project matchmaking</summary>
+<summary><b>🧩 Developer Collaboration Platform</b> — Developer-project matchmaking</summary>
 
 <br>
 
-**The Idea**: GitHub for finding collaborators and open-source projects based on skills.
+**The Idea**: GitHub for finding collaborators and open projects based on skills.
 
 - 🔐 GitHub OAuth integration with proper token refresh logic
 - 🔄 Automated repo syncing via GitHub API webhooks
 - 📬 Real-time notifications using Firestore + event-driven architecture
-- 👥 Contributor matching algorithm based on language proficiency and interests
+- 👥 Contributor matching based on skills , teck stack and interests
 
 **Tech**: Spring Boot, React, Firestore, GitHub API
 
@@ -106,17 +106,16 @@ Currently deep in: **Spring Boot microservices**, **real-time event systems**, a
 </details>
 
 <details>
-<summary><b>💬 Real-Time Messaging Experiments</b> — Learning by building</summary>
+<summary><b>💬 whisperNet </b> — A p2p chat application</summary>
 
 <br>
 
-Small but intentional projects to understand:
-- WebSocket vs SSE vs long-polling tradeoffs
-- Event-driven architectures and message queues
-- Peer-to-peer connections and NAT traversal
-- Designing for eventual consistency
+- A privacy-first peer to peer chat application
+- No login/signup required
+- Peers can make audio/video calls , send meesages
+- Transfer files directly between peers without a central server 
 
-**Tech**: Spring Boot WebSocket, STOMP, various messaging patterns
+**Tech**: Node JS, WebRTC , Socket Programming , React , socket.io
 
 **Philosophy**: Build it wrong first, then build it right. Both times teach you something.
 
@@ -124,56 +123,20 @@ Small but intentional projects to understand:
 
 ---
 
-## 📊 GitHub Activity
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=yashshinde&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashshinde&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yashshinde&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yashshinde&theme=tokyonight&no-frame=true&column=7&margin-w=15&margin-h=15" />
-</p>
-
----
-
-## 💭 Current Focus
-
-```java
-public class CurrentStatus {
-    private String primary = "SDE Interview Prep (LeetCode but make it interesting)";
-    private String secondary = "Building systems with fewer regrets";
-    private List<String> learning = Arrays.asList(
-        "Advanced system design patterns",
-        "Distributed systems edge cases",
-        "Why everyone uses Kafka (and when not to)"
-    );
-    private String philosophy = "Write code that 3 AM-you can debug";
-}
-```
-
-**Also**: Photography, astronomy, music production, and overthinking movie plots.
+**Ohter Interests**: Photography, Astronomy, Music , and Overthinking Movie Plots.
 
 ---
 
 ## 🤝 Let's Connect
 
 <p align="center">
-  <a href="https://linkedin.com/in/yourprofile">
+  <a href="https://linkedin.com/in/yash-73-shinde">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://twitter.com/yourhandle">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
-  <a href="mailto:your.email@example.com">
+ 
+  <a href="mailto:yash73shinde@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://yourportfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" />
   </a>
 </p>
 
